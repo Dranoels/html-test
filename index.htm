@@ -1,0 +1,132 @@
+<!-- This is a comment -->
+
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+<title>My First HTML</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body style="background-color:powderblue;">
+<!-- Test bookmarks -->
+<p><a href="#fexam">Jump to Formatting Examples</a></p>
+<p><a href="#chead">Jump to coloured headings</a></p>
+<p><a href="#imagemap">Jump to Image Mapping</a></p>
+
+<h1 style="background-color:green; color:white;">My First Heading</h1>
+<p title="Paraghraph tooltip">My first paragraph</p>
+<p style="color:red;">This is a paragraph of red text.</p>
+<hr>
+
+
+<h2>This is heading 2</h2>
+<p style="color:blue;">This is a paragraph of blue text.</p>
+<a href="https://www.google.co.uk" target="_blank">This is a link.</a>
+<hr>
+
+
+<h2>This is heading 2</h2>
+<p style="font-size:28px;">
+<img src="card.jpg" alt="Ikea member card" style="float:right; width:415px; height:248px;">
+This is an image of 
+<br />an Ikea member card 
+<br />floating to the right 
+<br />of this text.</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<p>This image is linked to the Ikea home page.</p>
+<a href="http://www.ikea.com/gb/en/" target="_blank" alt="Ikea home page">
+  <img src="card.jpg" alt="Ikea member card linked to Ikea home page" style="width:415px;height:248px;border:0">
+</a>
+<p>We have added "border:0" to prevent IE9 (and earlier) from 
+displaying a border around the image (when the image is a link).
+<br> Using 'target="_blank"' opens the link in a new tab.</p>
+<p><b>Note:</b> Always specify the width and height of an image. 
+If width and height are not specified, the page will flicker 
+while the image loads.</p>
+
+
+
+<hr>
+<p style="font-family:verdana;">Style test area. Test Verdana font</p>
+
+<p style="font-family:courier;">Test Courier font here</p>
+
+
+<h1 style="font-size:300%;">This is a large heading</h1>
+<p style="font-size:160%;">This is a large paragraph</p>
+
+<h1 style="text-align:center;">This is a centred heading</h1>
+<p style="text-align:center;">This is a centred paragraph</p>
+<hr>
+
+
+
+<h1 id="fexam">Formatting Examples</h1>
+<p><b>This text is bold</b>.
+<br><i>This text is italic</i>.</p>
+
+<p><strong>This text is strong</strong>. 
+<br><em>This text is emphasised.</em>
+<br>Using Strong and Emphasise adds semantic importance to the text.</p>
+
+<p>This text is <sub>subscript</sub> and <sup>superscript</sup></p>
+
+<h2>An example of <small>Small</small> Formatting</h2>
+
+<h2>An example of <mark>Marked</mark> Formatting</h2>
+
+<p>An example of <del>delted</del> deleted formatting.</p>
+
+<p>An example of <ins>inserted</ins> formatting. </p>
+<hr>
+
+<!-- Test bookmarks -->
+<h2 id="chead">Colour Headings</h2>
+
+<h2 style="background-color:red">
+Background-color set by using red
+</h2>
+
+<h2 style="background-color:orange">
+Background-color set by using orange
+</h2>
+
+<h2 style="background-color:yellow">
+Background-color set by using yellow
+</h2>
+
+<h2 style="background-color:blue;color:white">
+Background-color set by using blue
+</h2>
+
+<h2 style="background-color:cyan">
+Background-color set by using cyan
+</h2>
+<hr>
+
+<h1 id="imagemap">An example of image mapping</h1>
+
+<p>Click on the sun or on one of the planets to look at it closer:</p>
+
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercury.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+<hr>
+
+
+</body>
+</html>
+
